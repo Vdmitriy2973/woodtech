@@ -1,0 +1,124 @@
+@media(max-width:1174px)
+{
+    /* 1. Home */
+    .header
+    {
+        justify-content: center;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .header_border
+    {
+        width: 740px;
+    }
+    .home-header__content
+    {
+        margin-left: 15px;
+    }
+
+    .home-header__content-title
+    {
+        margin-top: 25px;
+        font-size: 42px;
+    }
+
+    .home-header__content-paragraph
+    {
+        font-size: 12px;
+    }
+
+    .home-header__content-description
+    {
+        margin-top: 21px;
+    }
+
+    /* 2. Trust */
+
+    .trust__inner
+    {
+        flex-direction: column;
+    }
+
+    .trust-content
+    {
+        margin-left: 50px;
+    }
+
+    .trust-right 
+    {
+        padding-bottom: 100px;
+    }
+    
+    .trust-right-paragraph
+    {
+        margin-right: 50px;
+    }
+
+    .trust-right-number
+    {
+        margin-right: 50px;
+    }
+
+    .trust-right-submit-app
+    {
+        position: absolute;
+        right: 50px;
+        margin-top:150px;
+    }
+
+    /* 3. Best works */
+
+    .bestworks-top-content
+    {
+        flex-direction: column;
+    }
+
+    .vertical-line
+    {
+        display: none;
+    }
+
+    .dark-bg
+    {
+        height: 320px;
+    }
+
+    .dark-bg .container 
+    {
+        background-color: #202328;
+    }
+
+    .bestworks-top-content-paragraph
+    {
+        text-align: center;
+    }
+
+    .bestworks-description
+    {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .bestworks-items
+    {
+        justify-content: center;
+    }
+
+    .bestworks-item
+    {
+        width: 300px;
+    }
+
+    .bestworks-item > img 
+    {
+        width: 300px;
+    }
+
+    .bestworks-item-content
+    {
+        margin-left: 15px;
+    }
+
+
+}
